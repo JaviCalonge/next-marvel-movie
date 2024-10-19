@@ -23,8 +23,6 @@ curl_close($ch);
 
 <main>
 
-  <?php var_dump($data); ?>
-
   <section>
     <h1 style="font-weight: 400;">La próxima película de Marvel</h1>
     <h2><?= $data["title"]; ?></h2>
