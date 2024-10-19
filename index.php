@@ -50,6 +50,19 @@ curl_close($ch);
   p {
     color: #6F7B87;
     text-shadow: 1px 1px 8px black;
-    /* Sombra combinada clara y oscura */
+  }
+
+  p {
+    margin: 0px 0 50px 0;
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 26px;
+    }
+
+    h2 {
+      font-size: 30px;
+    }
   }
 </style>
